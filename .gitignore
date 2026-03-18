@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# CUDA
+*.cu.o
+*.cubin
+*.ptx
+*.cu.d
+*.nvcc_build/
+
+# Torch
+*.pth
+*.pt
+*.onnx
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Existing project folders
+results/
+temp/
+
+# Profile
+*.ncu-rep
+output.png
+Rescaling Comparison: Checkerboard.png
+Rescaling Comparison: Horizontal Stripes.png
+Rescaling Comparison: Radial Gradient.png
+Rescaling Comparison: Sine Waves.png
+Rescaling Comparison: Vertical Stripes.png
